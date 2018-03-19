@@ -2,26 +2,7 @@ public class FakeDB {
 
 	private static FakeDBObject fakeDBObject = null;
 	private static FakeDBObject fakeChangingDBObject = null;
-	
-//	public FakeDB() {
-//		fakeDBObject = new FakeDBObject(1, "fake object");
-//		fakeChangingDBObject = new FakeDBObject(1, "fake object");
-//		
-//		Timer t;
-//		TimerTask task;
-//		
-//		t = new Timer();
-//		task = new TimerTask() {
-//		        @Override
-//		        public void run() {
-//
-//		        	fakeChangingDBObject.setId(fakeChangingDBObject.getId() + 1);
-//
-//		         }
-//		 } ;
-//
-//		t.scheduleAtFixedRate(task , 1000, 1000 );
-//	}
+
 	
 	public static FakeDBObject getStaticObject() {
 		
