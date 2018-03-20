@@ -1,3 +1,4 @@
+package cz.B6B36NSS;
 public class FakeDB {
 
 	private static FakeDBObject fakeDBObject = null;

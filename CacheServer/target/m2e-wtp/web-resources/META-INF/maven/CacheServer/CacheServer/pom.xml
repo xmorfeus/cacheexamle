@@ -4,6 +4,7 @@
   <artifactId>CacheServer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -23,5 +24,29 @@
         </configuration>
       </plugin>
     </plugins>
+    
   </build>
+  
+ <!--
+  <dependencies>
+  	<dependency>
+  		<groupId>jboss</groupId>
+  		<artifactId>jboss-cache</artifactId>
+  		<version>1.4.1.GA</version>
+  		<scope>compiled</scope>
+  	</dependency>
+  	<dependency>
+    <groupId>jboss</groupId>
+    <artifactId>jboss-system</artifactId>
+    <version>4.2.2.GA</version>
+    <scope>compiled</scope>
+</dependency>
+<dependency>
+    <groupId>org.jgroups</groupId>
+    <artifactId>jgroups</artifactId>
+    <version>4.0.11.Final</version>
+</dependency>
+  </dependencies>
+  -->
+
 </project>
