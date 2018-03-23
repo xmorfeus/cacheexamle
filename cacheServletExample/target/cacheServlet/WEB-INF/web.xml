@@ -1,0 +1,76 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>CacheServlet</display-name>
+
+
+  <!--<listener>-->
+    <!--<listener-class>clusterCache.ClusterCacheListener</listener-class>-->
+  <!--</listener>-->
+  <!--<listener>-->
+    <!--<listener-class>treeCache.TreeCacheListener</listener-class>-->
+  <!--</listener>-->
+  <listener>
+    <listener-class>fakeDB.FakeDBListener</listener-class>
+  </listener>
+
+  <listener>
+  <listener-class>treeCacheTtl.TreeCacheListener</listener-class>
+  </listener>
+  <listener>
+  <listener-class>clusterCacheTtl.ClusterCacheListener</listener-class>
+  </listener>
+
+  <servlet>
+    <servlet-name>example1</servlet-name>
+    <servlet-class>servlet.Example1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>example2</servlet-name>
+    <servlet-class>servlet.Example2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>example3</servlet-name>
+    <servlet-class>servlet.Example3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>example4</servlet-name>
+    <servlet-class>servlet.Example4</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>example5</servlet-name>
+    <servlet-class>servlet.Example5</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>example6</servlet-name>
+    <servlet-class>servlet.Example6</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>example1</servlet-name>
+    <url-pattern>/example1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>example2</servlet-name>
+    <url-pattern>/example2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>example3</servlet-name>
+    <url-pattern>/example3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>example4</servlet-name>
+    <url-pattern>/example4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>example5</servlet-name>
+    <url-pattern>/example5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>example6</servlet-name>
+    <url-pattern>/example6</url-pattern>
+  </servlet-mapping>
+</web-app>
