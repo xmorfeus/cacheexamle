@@ -22,7 +22,7 @@ public class FakeDBListener implements ServletContextListener {
             }
         } ;
 
-        t.scheduleAtFixedRate(task , 5000, 5000 );
+        t.scheduleAtFixedRate(task , 20000, 20000 );
     }
 
     public void contextDestroyed(ServletContextEvent sce) {

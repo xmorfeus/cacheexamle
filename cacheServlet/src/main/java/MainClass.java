@@ -19,7 +19,7 @@ public class MainClass {
 
             servlet = new URL(url);
 
-            int count = 5;
+            int count = 10;
             long sumTime = 0;
 
             for (int i = 0; i < count; i++) {
