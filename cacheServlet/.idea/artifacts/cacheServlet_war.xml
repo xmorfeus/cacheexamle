@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cacheServlet:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="cacheServlet.war">
+      <element id="artifact" artifact-name="cacheServlet:war exploded" />
+    </root>
+  </artifact>
+</component>

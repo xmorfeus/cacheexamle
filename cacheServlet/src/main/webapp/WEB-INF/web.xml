@@ -1,0 +1,31 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>CacheServlet</display-name>
+
+  <listener>
+    <listener-class>fakeDB.FakeDBListener</listener-class>
+  </listener>
+
+
+  <servlet>
+    <servlet-name>GetStaticObject</servlet-name>
+    <servlet-class>servlet.GetStaticObject</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetChangingObject</servlet-name>
+    <servlet-class>servlet.GetChangingObject</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>GetStaticObject</servlet-name>
+    <url-pattern>/getstaticobject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetChangingObject</servlet-name>
+    <url-pattern>/getchangingobject</url-pattern>
+  </servlet-mapping>
+</web-app>

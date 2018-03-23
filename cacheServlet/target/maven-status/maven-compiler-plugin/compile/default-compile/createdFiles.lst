@@ -1,0 +1,7 @@
+MainClass.class
+fakeDB\FakeDBObject.class
+fakeDB\FakeDBListener$1.class
+servlet\GetChangingObject.class
+fakeDB\FakeDB.class
+servlet\GetStaticObject.class
+fakeDB\FakeDBListener.class
