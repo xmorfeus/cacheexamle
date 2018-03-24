@@ -17,9 +17,9 @@ public class App
     {
     	URL servlet;
 		try {
-			
-			//String url = "http://localhost:8080/CacheServer/CacheServlet";
-			String url = "http://localhost:8090/CacheServer/CacheServlet";
+
+//          String url = "http://localhost:8090/cacheServlet/getchangingoject";
+			String url = "http://localhost:8090/cacheServlet/getstaticobject";
 			
 			servlet = new URL(url);
 	    	
