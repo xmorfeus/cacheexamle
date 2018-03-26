@@ -16,12 +16,12 @@
     <listener-class>fakeDB.FakeDBListener</listener-class>
   </listener>
 
-  <listener>
-  <listener-class>treeCacheTtl.TreeCacheListener</listener-class>
-  </listener>
-  <listener>
-  <listener-class>clusterCacheTtl.ClusterCacheListener</listener-class>
-  </listener>
+  <!--<listener>-->
+  <!--<listener-class>treeCacheTtl.TreeCacheListener</listener-class>-->
+  <!--</listener>-->
+  <!--<listener>-->
+  <!--<listener-class>clusterCacheTtl.ClusterCacheListener</listener-class>-->
+  <!--</listener>-->
 
   <servlet>
     <servlet-name>example1</servlet-name>
